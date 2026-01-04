@@ -11,17 +11,6 @@ function clearScreen() {
     solutionInput.value = "";
     answerInput.value = "";
 }
-// Query elements and wire handlers after DOM is ready so this script works
-// whether it's placed in <head> or at the end of <body>.
-// document.addEventListener('DOMContentLoaded', () => {
-//     solutionInput = document.getElementById('solution');
-//     answerInput = document.getElementById('answer');
-//     clear = document.getElementById('clear');
-//     clearAll = document.getElementById('clear_all');
-
-//     if (clear) clear.addEventListener('click', clearScreen);
-//     if (clearAll) clearAll.addEventListener('click', clearScreen);
-// });
 
 const percentButton = document.getElementById('percent');
 const divideButton = document.getElementById('divide');
