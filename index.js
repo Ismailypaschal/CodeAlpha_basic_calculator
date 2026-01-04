@@ -30,20 +30,20 @@ const addButton = document.getElementById('add');
 const subtractButton = document.getElementById('subtract');
 const decimalPoint = document.getElementById('decimal');
 
-// function calculate() {
-//     try {
-//         solutionInput.value = eval(solutionInput.value);
-//         answerInput.value = "";
-//     }
-//     catch (error) {
-//         solutionInput.value = "Error";
-//     }
-// }
+function calculate() {
+    try {
+        solutionInput.value = eval(solutionInput.value);
+        answerInput.value = "";
+    }
+    catch (error) {
+        solutionInput.value = "Error";
+    }
+}
 
-// // The HTML calls `showResult('=')` for the equals button. Provide a thin
-// // wrapper so the existing HTML works and routes to our `calculate()`.
-// function showResult(token) {
-//     if (token === '=') {
-//         calculate();
-//     }
-// }
+// The HTML calls `showResult('=')` for the equals button. Provide a thin
+// wrapper so the existing HTML works and routes to our `calculate()`.
+function showResult(token) {
+    if (token === '=') {
+        calculate();
+    }
+}
