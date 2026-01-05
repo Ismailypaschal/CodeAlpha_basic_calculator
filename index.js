@@ -1,7 +1,7 @@
 const solutionInput = document.getElementById('solution');
 const answerInput = document.getElementById('answer');
-const clear = document.getElementById('clear');
-const clearAll = document.getElementById('clear_all');
+// const clear = document.getElementById('clear');
+// const clearAll = document.getElementById('clear_all');
 
 
 function addToScreen(value) {
@@ -17,12 +17,12 @@ function clearLast() {
     answerInput.value = "";
 }
 
-const percentButton = document.getElementById('percent');
-const divideButton = document.getElementById('divide');
-const multiplyButton = document.getElementById('multiply');
-const addButton = document.getElementById('add');
-const subtractButton = document.getElementById('subtract');
-const decimalPoint = document.getElementById('decimal');
+// const percentButton = document.getElementById('percent');
+// const divideButton = document.getElementById('divide');
+// const multiplyButton = document.getElementById('multiply');
+// const addButton = document.getElementById('add');
+// const subtractButton = document.getElementById('subtract');
+// const decimalPoint = document.getElementById('decimal');
 
 function calculate() {
     try {
