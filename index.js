@@ -22,7 +22,7 @@ const decimalPoint = document.getElementById('decimal');
 function calculate() {
     try {
         solutionInput.value = eval(solutionInput.value);
-        answerInput.value = "";
+        answerInput.value = solutionInput.value;
     }
     catch (error) {
         solutionInput.value = "Error";
