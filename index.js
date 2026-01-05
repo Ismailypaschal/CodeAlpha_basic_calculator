@@ -12,6 +12,11 @@ function clearScreen() {
     answerInput.value = "";
 }
 
+function clearLast() {
+    solutionInput.value = solutionInput.value.slice(0, -1);
+    answerInput.value = "";
+}
+
 const percentButton = document.getElementById('percent');
 const divideButton = document.getElementById('divide');
 const multiplyButton = document.getElementById('multiply');
